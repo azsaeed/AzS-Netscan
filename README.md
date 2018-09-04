@@ -11,7 +11,7 @@ The application is constantly under development.
 Developed by Azhar Saeed Bhatti, Duesseldorf - Germany
 
 Version: 1.0
-Relase: 2018-09-19
+Relase: 2018-09-04
 
 # Licensing
 AzS - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3, you will find a copy of this license in the LICENSE file included in the source package.
