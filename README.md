@@ -21,9 +21,10 @@ AzS - NetScan v1.0 is licensed under the terms of the GNU General Public License
 
 ### Installation
 Clone or download: 
-git clone https://github.com/azsaeed/AzS-Netscan.git
+git clone https://github.com/azsaeed/azs-netscan.git  
 
-change permission: # chmod 744 run.py 
+change permission: # chmod 744 run.py   
+
 #### Run the scanner 
 .\run.py 
 
