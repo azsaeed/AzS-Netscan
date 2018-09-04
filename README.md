@@ -30,10 +30,10 @@ change permission: # chmod 744 run.py
 Navigation:
 1.Start -- 2.Help -- 3.Info -- 0.Exit
 
-Please select [0-3]: 1
-Please choose the network and subnet mask [192.168.0.0/24]: 192.168.0.0/24
-Please enter a address: 192.168.0.0 
-Please select a port: 22 
+  Please select [0-3]: 1
+  Please choose the network and subnet mask [192.168.0.0/24]: 192.168.0.0/24
+  Please enter a address: 192.168.0.0 
+  Please select a port: 22 
 
 Nmap 6.40 scan initiated Tue Sep  4 15:18:07 2018 as: nmap -oX - -oN /tmp/info.txt -p22 192.168.70.87
 Nmap scan report for 192.168.70.87
