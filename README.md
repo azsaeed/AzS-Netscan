@@ -24,6 +24,6 @@ AzS - NetScan v1.0 is licensed under the terms of the GNU General Public License
 ### Set default Network for scan
 
 To set a default network you have to add and delete the following lines:  
--       subnet = raw_input(bcolors.BOLD + "Please choose the network and subnet mask [192.168.0.0/24]: " + bcolors.ENDC)
--       nm.scan(subnet, arguments = ('-sP'))
-+       nm.scan('192.168.70.0/24', arguments = ('-sP'))
+--       subnet = raw_input(bcolors.BOLD + "Please choose the network and subnet mask [192.168.0.0/24]: " + bcolors.ENDC)
+--       nm.scan(subnet, arguments = ('-sP'))
+++       nm.scan('192.168.70.0/24', arguments = ('-sP'))
