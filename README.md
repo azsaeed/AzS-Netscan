@@ -31,7 +31,7 @@ Navigation:
 1.Start -- 2.Help -- 3.Info -- 0.Exit
 
 Please select [0-3]: 1
-Please choose the network and subnet mask [192.168.0.0/24]:192.168.0.0/24
+Please choose the network and subnet mask [192.168.0.0/24]: 192.168.0.0/24
 Please enter a address: 192.168.0.0 
 Please select a port: 22 
 
@@ -44,10 +44,3 @@ MAC Address: 00:0C:29:B7:01:B4 (VMware)
 
 Nmap done at Tue Sep  4 15:18:07 2018 -- 1 IP address (1 host up) scanned in 0.29 seconds
 
-
-### Set default Network for scan
-
-To set a default network you have to add and delete the following lines:  
---       subnet = raw_input(bcolors.BOLD + "Please choose the network and subnet mask [192.168.0.0/24]: " + bcolors.ENDC)
---       nm.scan(subnet, arguments = ('-sP'))
-++       nm.scan('192.168.70.0/24', arguments = ('-sP'))
