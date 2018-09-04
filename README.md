@@ -14,7 +14,7 @@ Version: 1.0
 Relase: 2018-09-19
 
 # Licensing
-AzS - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 2, you will find a copy of this license in the COPYING file included in the source package.
+AzS - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3, you will find a copy of this license in the LICENSE file included in the source package.
 
 
 # Documentation
