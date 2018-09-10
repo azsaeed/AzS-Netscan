@@ -11,11 +11,10 @@ The application is constantly under development.
 AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3,
 you will find a copy of this license in the LICENSE file included in the source package.
 
-Developed by Azhar Saeed Bhatti, Duesseldorf - Germany
+Developed by Azhar Saeed Bhatti, Duesseldorf - Germany  
 
-GitHub: https://github.com/azsaeed/
-Version: 1.0
-Relase: 2018-09-19
+Version: 1.0  
+Relase: 2018-09-19  
 
 
 # Licensing
