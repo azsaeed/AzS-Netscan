@@ -5,6 +5,7 @@
 from classes import bcolors
 
 print "----------------------------------------------------------------"
-print bcolors.OKGREEN +  "AzSaeed - Network Scanner - v1.0" + bcolors.ENDC
+print bcolors.OKGREEN +  "AzSa - NetScan v1.0" + bcolors.ENDC
 print "----------------------------------------------------------------"
+#print "\n"
 import navi
