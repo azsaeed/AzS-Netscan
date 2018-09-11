@@ -10,7 +10,7 @@ The development of these application was in Python v3 code.
 The scanner is developed for all Linux distributions which provide a Python environment.  
 To get network information the scanner use the nmap package and Python nmap-module.
 
-The application is constantly under development.
+The application is constantly under development. New features will release soon.    
 Developed by Azhar Saeed Bhatti, Duesseldorf - Germany  
 
 Version: 1.0  
