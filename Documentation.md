@@ -1,25 +1,31 @@
 
-## Documentation
+# Documentation
 
-### Installation
-Clone or download:  
+These documention describe how to install and use the AzSa - NetScan.  
+It assumes that you are familiar with the operating system which you are using to install.  
+Here is used CentOS version 7 and Python version 2.7. 
+
+
+## Installation
+##### Clone or download NetScan:  
 `# git clone https://github.com/azsaeed/azsa-netscan.git`
 
-Change permission:   
+##### Change permission:   
 `# chmod 744 run.py`
 
-Install python nmap module  
-auto:  
-`yum -y install python-pip`     
+##### Install python nmap module  
+###### auto:  
 `pip install python-nmap`  
 
-manual:  
+###### manual:  
 download: https://xael.org/norman/python/python-nmap/  
 `tar -xf python-nmap.tar`     
 `python setup.py install`   
 
+##### Install nmap package 
+`yum install`     
 
-#### Run the scanner 
+### Run the scanner 
 .\run.py 
 
 Navigation:
