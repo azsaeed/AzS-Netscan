@@ -34,8 +34,9 @@ def navi():
                 print "-----------------------------------------------------------------"
                 print bcolors.WARNING + "Info" + bcolors.ENDC
                 print "-----------------------------------------------------------------\n"
-                print "The AzSa - NetScan is an open source application to scan network state of selected hosts.\nCurrently you can check which hosts are online or which ports are open or closed.\n"
-                print "The Application use the python nmap module to scan the network.\nThe application is constantly under development.\n"
+                print "The AzSa - NetScan is an open source application to scan network state of selected hosts.\nThe scanner is able to check which hosts are online or how is the state of the ports (open | closed).\n"
+                print "More Features allows you to scan only the well-known or all ports of a host.\n"
+                print "To get network information the scanner use the nmap package and Python nmap-module.\nThe application is constantly under development.\n"
 
                 print "AzSa - NetScan is licensed under the terms of the GNU General Public License Version 3,\nyou will find a copy of this license in the LICENSE file included in the source package.\n"
 
