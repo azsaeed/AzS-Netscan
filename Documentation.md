@@ -65,7 +65,7 @@ MAC Address: 00:0C:29:B7:01:B4 (VMware)
 Nmap done at Tue Sep  4 15:18:07 2018 -- 1 IP address (1 host up) scanned in 0.29 seconds #` 
 
 The last output will also concurrently save the in the file /tmp/info.txt.  
-After the output the scanner will ask you for check more hosts. There you can choose y or n. 
+After the output the scanner will ask you for check more hosts. There you can choose y or n.   
 If you will choose y the scanner display the searched hosts again else it will exit. 
 
 
