@@ -3,9 +3,10 @@
 
 ### Installation
 Clone or download:  
-`git clone https://github.com/azsaeed/azsa-netscan.git'`
+`# git clone https://github.com/azsaeed/azsa-netscan.git`
 
-change permission: # chmod 744 run.py   
+change permission: 
+`# chmod 744 run.py`   
 Install python nmap module  
 auto:  
 yum -y install python-pip   
