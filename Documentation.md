@@ -55,11 +55,18 @@ You can enter a custom single port or you can scan for the well-known or all por
 `# Please select a option: 22`  
 
 
-#### Output 
-Nmap 6.40 scan initiated Tue Sep  4 15:18:07 2018 as: nmap -oX - -oN /tmp/info.txt -p22 192.168.70.87  
+##### Output 
+`# Nmap 6.40 scan initiated Tue Sep  4 15:18:07 2018 as: nmap -oX - -oN /tmp/info.txt -p22 192.168.70.87    
 Nmap scan report for 192.168.0.2  
 Host is up (0.0013s latency).  
 PORT   STATE SERVICE  
 22/tcp open  ssh  
 MAC Address: 00:0C:29:B7:01:B4 (VMware)  
-Nmap done at Tue Sep  4 15:18:07 2018 -- 1 IP address (1 host up) scanned in 0.29 seconds  
+Nmap done at Tue Sep  4 15:18:07 2018 -- 1 IP address (1 host up) scanned in 0.29 seconds #` 
+
+The last output will also concurrently save the in the file /tmp/info.txt.  
+After the output the scanner will ask you for check more hosts. There you can choose y or n. 
+If you will choose y the scanner display the searched hosts again else it will exit. 
+
+
+
