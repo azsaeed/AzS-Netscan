@@ -22,4 +22,4 @@ AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public Licens
 
 
 # Documentation
-The documentation file: `https://github.com/azsaeed/azsa-netscan/blob/master/Documentation.md`  is included in the source package.
+The documentation file: [../documentation.md](https://github.com/azsaeed/azsa-netscan/blob/master/Documentation.md)  is included in the source package.
