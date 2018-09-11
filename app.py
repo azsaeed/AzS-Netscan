@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import os, sys, re, nmap
 from classes import bcolors
-
 #Initialize nmap programm
 nm = nmap.PortScanner()
 
@@ -18,7 +17,7 @@ def addsub():
                 exit()
         else:
 
-                nm.scan(subnet, arguments = ('-sP -T5'))
+                nm.scan(subnet, arguments = ('-sP -T5 -n'))
                 global h
                 h = nm.all_hosts()
                 global listh
@@ -51,16 +50,16 @@ def app():
                                         m2 = re.search("all", p)
                                         m3 = re.search("well", p)
                                         if m2:
-                                                s = nm.scan(host, arguments = ('-oN /tmp/info.txt -p-'))
+                                                s = nm.scan(host, arguments = ('-oN /tmp/info.txt -p- -n'))
                                                 print(open("/tmp/info.txt").read())
                                                 break
                                         elif m3:
-                                                s = nm.scan(host, arguments = ('-oN /tmp/info.txt -p 1-1023'))
+                                                s = nm.scan(host, arguments = ('-oN /tmp/info.txt -p 1-1023 -n'))
                                                 print(open("/tmp/info.txt").read())
                                                 break
 
                                         elif p > 0:
-                                                s = nm.scan(host, arguments = ('-oN /tmp/info.txt -p' + p))
+                                                s = nm.scan(host, arguments = ('-n -oN /tmp/info.txt -p' + p))
                                                 print(open("/tmp/info.txt").read())
                                                 break
 
