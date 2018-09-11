@@ -1,6 +1,6 @@
 # AzSa - NetScan 
 
-# About
+## About
 
 The AzSa - NetScan is an open source application to search and scan network state of selected hosts.
 The scanner is able to check which hosts are online or how is the state of the ports (open | closed).  
@@ -20,11 +20,11 @@ Relase: 2018-09-11
 # Licensing
 AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3, you will find a copy of this license in the LICENSE file included in the source package.
 
-# Documentation
+## Documentation
 
 ### Installation
 Clone or download:  
-'git clone https://github.com/azsaeed/azsa-netscan.git' 
+`git clone https://github.com/azsaeed/azsa-netscan.git'`
 
 change permission: # chmod 744 run.py   
 Install python nmap module  
