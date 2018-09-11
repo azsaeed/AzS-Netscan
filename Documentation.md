@@ -18,7 +18,8 @@ Here is used CentOS version 7 and Python version 2.7.
 `# pip install python-nmap`  
 
 ###### manual:  
-download: https://xael.org/norman/python/python-nmap/  
+The nmap package is also includes in the source package.
+Or download it: https://xael.org/norman/python/python-nmap/  
 `# tar -xf python-nmap.tar`     
 `# python setup.py install`   
 
