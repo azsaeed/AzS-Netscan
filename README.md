@@ -2,7 +2,7 @@
 
 ## About
 
-The AzSa - NetScan is an open source application to search and scan network state of selected hosts.
+The AzSa - NetScan is an open source application to search and scan network state of selected hosts.  
 The scanner is able to check which hosts are online or how is the state of the ports (open | closed).  
 More Features allows you to scan only the well-known or all ports of a host.  
 
