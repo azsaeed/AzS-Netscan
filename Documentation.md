@@ -5,17 +5,18 @@
 Clone or download:  
 `# git clone https://github.com/azsaeed/azsa-netscan.git`
 
-change permission: 
-`# chmod 744 run.py`   
+Change permission:   
+`# chmod 744 run.py`
+
 Install python nmap module  
 auto:  
-yum -y install python-pip   
-pip install python-nmap  
+`yum -y install python-pip`     
+`pip install python-nmap`  
 
 manual:  
 download: https://xael.org/norman/python/python-nmap/  
-tar -xf python-nmap.tar   
-python setup.py install  
+`tar -xf python-nmap.tar`     
+`python setup.py install`   
 
 
 #### Run the scanner 
