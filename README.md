@@ -21,3 +21,5 @@ Relase: 2018-09-11
 AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3, you will find a copy of this license in the LICENSE file included in the source package.
 
 
+# Documentation
+The documentation file: `documentation.md`  is included in the source package.
