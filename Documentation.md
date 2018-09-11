@@ -55,7 +55,7 @@ You can enter a custom single port or you can scan for the well-known or all por
 `# Please select a option: 22`  
 
 
-##### Output 
+#### Output 
 Nmap 6.40 scan initiated Tue Sep  4 15:18:07 2018 as: nmap -oX - -oN /tmp/info.txt -p22 192.168.70.87  
 Nmap scan report for 192.168.0.2  
 Host is up (0.0013s latency).  
