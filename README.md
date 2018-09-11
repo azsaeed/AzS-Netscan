@@ -6,7 +6,7 @@ The AzSa - NetScan is an open source application to search and scan network stat
 The scanner is able to check which hosts are online or how is the state of the ports (open | closed).  
 More Features allows you to scan only the well-known or all ports of a host.  
 
-The development of these application was in Python v3 code.  
+The development of these application was in Python code.  
 The scanner is developed for all Linux distributions which provide a Python environment.  
 To get network information the scanner use the nmap package and Python nmap-module.
 
