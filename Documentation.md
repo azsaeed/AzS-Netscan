@@ -1,7 +1,7 @@
 
 # Documentation
 
-These documention describe how to install and use the AzSa - NetScan.  
+These documentation describe how to install and use the AzSa - NetScan.  
 It assumes that you are familiar with the operating system which you are using to install.  
 Here is used CentOS version 7 and Python version 2.7. 
 
@@ -15,26 +15,38 @@ Here is used CentOS version 7 and Python version 2.7.
 
 ##### Install python nmap module  
 ###### auto:  
-`pip install python-nmap`  
+`# pip install python-nmap`  
 
 ###### manual:  
 download: https://xael.org/norman/python/python-nmap/  
-`tar -xf python-nmap.tar`     
-`python setup.py install`   
+`# tar -xf python-nmap.tar`     
+`# python setup.py install`   
 
 ##### Install nmap package 
-`yum install`     
+`# yum install nmap`     
 
-### Run the scanner 
-.\run.py 
 
+## Run 
+To run the scanner you have to execute the file run.py   
+`# .\run.py`   
+
+When the scanner is started you can choose the follow option from the navigation:  
 Navigation:
 1.Start -- 2.Help -- 3.Info -- 0.Exit
 
-  Please select [0-3]: 1  
-  Please choose the network and subnet mask [192.168.0.0/24]: 192.168.0.0/24  
-  Please enter a address: 192.168.0.0  
-  Please select a port: 22   
+To scan you have to choose the option:   
+`# Please select [0-3]: 1`  
+
+Next you have to add the subnet with the subnetmask in CIDR format:   
+`# Please choose the network and subnet mask [192.168.0.0/24]: 192.168.0.0/24`
+
+After you have added a subnet the scanner will scan all hosts in the subnet and display the result:  
+`# 192.168.0.1`  
+`# 192.168.0.2`
+
+
+Please enter a address: 192.168.0.0  
+Please select a port: 22   
 
 Nmap 6.40 scan initiated Tue Sep  4 15:18:07 2018 as: nmap -oX - -oN /tmp/info.txt -p22 192.168.70.87  
 Nmap scan report for 192.168.70.87  
