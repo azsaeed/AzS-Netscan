@@ -2,15 +2,19 @@
 
 # About
 
-The AzSa - NetScan v1.0 is an open source application to scan network state of selected hosts.
-Currently you can check which hosts are online or which ports are open or closed.
+The AzSa - NetScan v1.0 is an open source application to search and scan network state of selected hosts.
+The scanner is able to check which hosts are online or how is the state of the ports [open | closed].
+More Features allows you to scan only the well-known or all ports of a host.
+The Scanner 
 
-The Application use the python nmap module to scan the network.
-The application is constantly under development.
+The development of these application was in python version 3 code.
+The application use the nmap linux package and python nmap module to get these all informations.   
+To use the scanner the nmap linux package and python nmap module are required! A python envoirenment is also requried.   
 
 AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3,
 you will find a copy of this license in the LICENSE file included in the source package.
 
+The application is constantly under development! 
 Developed by Azhar Saeed Bhatti, Duesseldorf - Germany  
 
 Version: 1.0  
@@ -19,7 +23,6 @@ Relase: 2018-09-19
 
 # Licensing
 AzSa - NetScan v1.0 is licensed under the terms of the GNU General Public License Version 3, you will find a copy of this license in the LICENSE file included in the source package.
-
 
 # Documentation
 
