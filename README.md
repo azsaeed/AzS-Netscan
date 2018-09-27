@@ -14,7 +14,7 @@ The application is constantly under development. New features will release soon.
 Developed by Azhar Saeed Bhatti, Duesseldorf - Germany  
 
 Version: 1.0  
-Relase: 2018-09-11  
+Release: 2018-09-11  
 
 
 # Licensing
